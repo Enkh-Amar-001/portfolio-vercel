@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./iCON.png">
+    <meta name="theme-color" content="#1d1d1d">
+    <meta property="og:title" content='Enkh-Amar'/>
+    <meta property="og:image" content='https://w.wallhaven.cc/full/57/wallhaven-57o9j5.png'/>
+    <meta property="og:description" content='portfolio'/>
+    <!-- <meta property="og:url" content='URL OF YOUR WEBSITE'/> -->
+    <meta property='og:image:width' content='400'/>
+    <meta property='og:image:height' content='300'/>
+    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+    <meta property="og:type" content='website'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<html>
+    <body>
+        <form class="contact" name="contact" action="https://formspree.io/f/meqndjqo" action="./success.html" method="POST">
+            <div class="back"><a href="javascript:history.back()"><i class="fa-solid fa-arrow-left"></i></a></div>
+            <h1 class="hdn">Холбогдох</h1>
+            <!-- <p> -->
+                <label class="name">
+                    <h1>Таны нэр:</h1>
+                    <input type="text" name="name" placeholder="Батаа" required/>
+                </label>
+            <!-- </p> -->
+            <!-- <p> -->
+                <label class="phone">
+                    <h1>Утас:</h1>
+                    <input type="number" name="phone" placeholder="12345678"/>
+                </label>
+            <!-- </p> -->
+            <!-- <p> -->
+                <label class="l3">
+                    <h1>Имэйл:</h1>
+                    <input type="email" name="email" placeholder="bataa@gmail.com"/>
+                </label>
+            <!-- </p> -->
+            <!-- <p> -->
+            <label class="l4">
+                <h1>Та хэн болох:</h1>
+                <select name="role[]" required>
+                    <option disabled="disabled" selected="selected">Сонгох</option>
+                    <option value="person"><p>Хувь хүн</p></option>
+                    <option value="Organization"><p>Байгууллага</p></option>
+                    <option value="Other"><p>Бусад</p></option>
+                </select>
+            </label>
+            <!-- </p> -->
+            <!-- <p> -->
+                <label class="l4">
+                    <h1>Утга:</h1>
+                    <textarea name="message" placeholder="Hi танилцъя" required></textarea>
+                </label>
+            <!-- </p> -->
+            <!-- <p> -->
+                <label>
+                    <h1>файл хавсаргах:</h1>
+                    <input class="file" name="file" type="file"/>
+                </label>
+            <!-- </p> -->
+            <!-- <p> -->
+                <button class="btn" type="submit"><p>илгээх</p></button>
+            <!-- </p> -->
+        </form>
+    </body>
+</html>

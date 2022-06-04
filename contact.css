@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fredoka+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lilita+One&family=Lobster&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+fonts {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lilita One', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #1d1d1d;
+  --tertiary: #357edd;
+  --quaternary: #101010;
+  --quinary: #aaaaaa;
+  --shadow-color: #00000057 0px 2px 8px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #363636;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  background-color: var(--quaternary);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.contact {
+  display: block;
+  width: 700px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.contact .hdn {
+  text-align: center;
+  margin: auto;
+  color: var(--primary-color);
+}
+
+.contact label {
+  color: #fff;
+  width: 100%;
+}
+
+.contact label h1 {
+  font-size: 24px;
+  color: var(--quinary);
+  padding: .5rem 0;
+}
+
+.contact label input {
+  width: 100%;
+  font-size: large;
+  font-weight: 700;
+  padding: 0.5rem;
+  border: 0;
+}
+
+.contact label .file {
+  padding: 0;
+}
+
+.contact label textarea {
+  width: 100% !important;
+  font-size: large;
+  height: auto;
+  border: none;
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+.contact .l4 {
+  width: 100%;
+}
+
+.contact .l4 select {
+  overflow-y: hidden;
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  padding: 0.5rem;
+  font-size: large;
+  font-weight: 700;
+}
+
+.contact .l4 select option {
+  width: 100%;
+  height: 30px;
+  font-size: large;
+}
+
+.contact .l4 select option p {
+  font-size: large;
+}
+
+.contact button {
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  background-color: #4CAF50;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  font-weight: 500;
+}
+
+::-ms-input-placeholder {
+  font-weight: 500;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+
+.back {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.back a {
+  text-decoration: none;
+}
+
+.back a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: var(--quinary);
+  font-size: 2.5rem;
+  color: var(--quaternary);
+}
+
+input[type=file]::file-selector-button {
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  background-color: #4CAF50;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=contact.css.map */

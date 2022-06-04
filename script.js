@@ -1,28 +1,28 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    // direction: 'vertical',
-    slidesPerColumn: 2,
-    loop: true,
-    autoplay: {delay: 3000},
-    slidesPerView: 'auto',
-    centeredSlides: true,
+// const swiper = new Swiper('.swiper', {
+//     // Optional parameters
+//     // direction: 'vertical',
+//     slidesPerColumn: 2,
+//     loop: true,
+//     autoplay: {delay: 3000},
+//     slidesPerView: 'auto',
+//     centeredSlides: true,
   
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//     },
   
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+//     // Navigation arrows
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     },
   
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-});
+//     // And if we need scrollbar
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//     },
+// });
 
 
 // number counter
@@ -87,10 +87,10 @@ $(window).on("load",function(){
     $(".loader").fadeOut("slow");
 });
 
-swal({
-    title: '',
-    text: 'Одоогоор хөгжүүлэлт хийгдэж байна',
-    icon: 'warning',
-    // icon: "warning", "error", "success" and "info".
-    button: 'За'
-});
+// swal({
+//     title: '',
+//     text: 'Одоогоор хөгжүүлэлт хийгдэж байна',
+//     icon: 'warning',
+//     // icon: "warning", "error", "success" and "info".
+//     button: 'ok'
+// });

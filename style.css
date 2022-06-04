@@ -25,37 +25,6 @@ fonts {
   --shadow-color: #00000057 0px 2px 8px;
 }
 
-.loading {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: 9999;
-}
-
-.loading .loading-text {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
-  height: 100px;
-  line-height: 100px;
-}
-
-.loading .loading-text span {
-  font-size: 50px;
-  font-weight: 600;
-  display: inline-block;
-  margin: 0 5px;
-  color: #ffffff;
-  font-family: 'Lobster', cursive;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 0px;
@@ -508,7 +477,7 @@ section {
 }
 
 .home {
-  background-image: url(https://w.wallhaven.cc/full/57/wallhaven-57o9j5.png);
+  background-image: url(./wallhaven-02.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -517,8 +486,8 @@ section {
 .home .container {
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(6px) brightness(0.4);
-          backdrop-filter: blur(6px) brightness(0.4);
+  -webkit-backdrop-filter: blur(7px) brightness(0.4);
+          backdrop-filter: blur(7px) brightness(0.4);
   padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;

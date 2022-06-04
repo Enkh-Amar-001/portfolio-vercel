@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="loader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="./iCON.png">
@@ -22,6 +23,13 @@
 </head>
 
 <html>
+    <div class="loader">
+        <div class="loading">
+            <div class="loading-text">
+                <span class="loading-text-words">loading...</span>
+            </div>
+        </div>
+    </div>
     <body style="display: flex; justify-content: center; align-items: center;">
         <section style="display: block;">
             <div style="margin-left: 1rem;" class="back"><a href="./index.html"><i class="fa-solid fa-arrow-left"></i></a></div>
@@ -29,5 +37,11 @@
             <h1 style="color: #fff; text-align: center; margin: 1rem 1rem;">404</h1>
             <h2 style="color: #fff; text-align: center; margin: 1rem 1rem;">хөгжүүлэлт хийгдэж байна.</h2>
         </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(window).on("load",function(){
+                $(".loader").fadeOut("slow");
+            });
+        </script>
     </body>
 </html>

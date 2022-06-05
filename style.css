@@ -94,9 +94,9 @@ body {
 }
 
 .header-mobile .logo {
-  font-size: 50px;
+  font-size: 72px;
   font-weight: 900;
-  margin: 1rem 2rem;
+  margin: .5rem 2rem;
   position: absolute;
   font-family: 'Source Sans Pro', sans-serif;
   color: var(--primary-color);
@@ -127,20 +127,17 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  color: var(--quaternary);
+  color: var(--secondary-color);
   width: 50px;
   height: 50px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: auto;
-  -webkit-box-shadow: var(--shadow-color);
-          box-shadow: var(--shadow-color);
-  border-radius: 100px;
+  border-radius: 1rem;
 }
 
 .header-mobile .menu-toggler i:hover {
-  -webkit-transform: rotatez(180deg);
-          transform: rotatez(180deg);
-  background-color: var(--quinary);
+  color: var(--quinary);
+  background-color: var(--secondary-color);
 }
 
 .header-mobile .menu-toggler:focus + .main-nav {
@@ -152,6 +149,8 @@ body {
   height: 100vh;
   position: fixed;
   background-color: var(--quaternary);
+  -webkit-box-shadow: 0px 0px 50px 50px #00000000;
+          box-shadow: 0px 0px 50px 50px #00000000;
   right: -100%;
   display: -webkit-box;
   display: -ms-flexbox;
